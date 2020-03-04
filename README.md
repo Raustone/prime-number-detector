@@ -8,7 +8,17 @@ For run the program, just download it and run Launch-EN.py for english, and Laun
 
 Warning ! You need install python 3 on your computer.
 
-# How to run (FR):
+# Comment lancer (FR):
 Pour lancer le programme, téléchargez-le, puis lancez Launch-EN.py pour la version anglaise, et Launch-FR.py pour la version française.
 
 Attention ! Vous avez besoin d'avoir python installé sur votre ordinateur.
+
+___________________________________________________________________________________________________________________________________
+
+# How to use (EN):
+
+When the program is lanched, type your number, press enter, and wait the result.
+
+# Comment utiliser (FR):
+
+Quand le programme est lancée, tapez votre nombre, appuyer sur entrée, et attendez le résultat.
