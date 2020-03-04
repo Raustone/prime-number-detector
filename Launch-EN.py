@@ -6,11 +6,11 @@ Nmbs = []
 test = 0
 Nmb_Test = 0
 
-print("Je suis un testeur de nombres premier, je suis capable de déterminer si un nombre est premier ou non. Quel nombre voulez-vous tester ?")
+print("I am a prime number detector, I can say if your number is prime or no. What number you want try ?")
 Nmb_test = int(input())
 
 if Nmb_test <= 1 :
-    print("Zéro et un ne sont pas compatible avec ce test ...")
+    print("You can't write this number ...")
     time.sleep(3.0)
     exit()
 else :
@@ -18,10 +18,10 @@ else :
         test += 1
         Nmbs.insert(test, Nmb_test%test)
     if Nmbs.count(0) > 2 :
-        print("Votre nombre n'est pas premier.")
+        print("Your number is not a prime number.")
         time.sleep(5.0)
         exit()
     else :
-        print("Votre nombre est premier.")
+        print("Your number is a prime number.")
         time.sleep(5.0)
         exit()
