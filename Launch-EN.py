@@ -14,7 +14,7 @@ if Nmb_test <= 1 :
     time.sleep(3.0)
     exit()
 else :
-    for i in range(Nmb_test):
+    for i in range(Nmb_test//2 + 5):
         test += 1
         Nmbs.insert(test, Nmb_test%test)
     if Nmbs.count(0) > 2 :
